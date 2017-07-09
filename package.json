@@ -1,0 +1,40 @@
+{
+  "name": "cash-dispenser",
+  "title": "Cash Dispenser",
+  "description": "A partial representation of a cash dispenser module (CDM)",
+  "version": "1.0.0",
+  "main": "dist/cash-dispenser.js",
+  "keywords": [
+    "cash",
+    "dispenser",
+    "ATM",
+    "CDM",
+    "denominate",
+    "denomination",
+    "cassette",
+    "counter",
+    "unit"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Yannick Ebongue",
+    "email": "yannickebongue@yahoo.fr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yannickebongue/cash-dispenser.git"
+  },
+  "homepage": "https://github.com/yannickebongue/cash-dispenser",
+  "bugs": "https://github.com/yannickebongue/cash-dispenser/issues",
+  "scripts": {
+    "build": "npm install && grunt",
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-qunit": "^2.0.0",
+    "grunt-contrib-uglify": "^3.0.1"
+  }
+}
